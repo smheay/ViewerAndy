@@ -6,7 +6,6 @@ This overlay fetches live viewer counts from YouTube, Twitch, and Rumble and dis
 
 ## Prerequisites
 
-* Node.js (for optional token automation)
 * A **Twitch** Developer application (Client ID & Client Secret)
 * A **YouTube** API key with access to the YouTube Data API v3
 * A **Rumble** livestream API URL
