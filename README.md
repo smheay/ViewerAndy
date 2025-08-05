@@ -1,3 +1,4 @@
+<img width="384" height="214" alt="image" src="https://github.com/user-attachments/assets/59d5fc21-94b2-4a26-b7cf-9fed8df57e15" />
 
 # Multi-Platform Viewer Count Overlay Setup
 
