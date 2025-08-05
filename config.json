@@ -1,0 +1,8 @@
+{
+  "youtube_api_key": "YOUR_YOUTUBE_API_KEY",
+  "youtube_video_id": "YOUR_YOUTUBE_VIDEO_ID",
+  "twitch_client_id": "YOUR_TWITCH_CLIENT_ID",
+  "twitch_token": "YOUR_TWITCH_OAUTH_TOKEN",
+  "twitch_username": "your_twitch_username",
+  "rumble_api_url": "https://rumble.com/-livestream-api/get-data?key=YOUR_RUMBLE_KEY"
+}

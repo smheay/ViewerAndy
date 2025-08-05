@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi-Viewer Count Overlay</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      padding: 5px;
+      max-width: 600px;
+      background-color: rgba(0, 0, 0, 0.5); /* change to desired BG color */
+      color: #00FF00; /* change to desired text color */
+      font-family: 'Orbitron', sans-serif;
+      font-size: 24px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    /* Hide scrollbars in Chromium-based browsers */
+    body::-webkit-scrollbar {
+      display: none;
+    }
+
+    .platform {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .platform img {
+      height: 1em;
+      width: auto;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="platform" id="youtube" aria-live="polite">
+    <img src="youtube.svg" alt="YouTube logo">
+    <span>…</span>
+  </div>
+
+  <div class="platform" id="twitch" aria-live="polite">
+    <img src="twitch.svg" alt="Twitch logo">
+    <span>…</span>
+  </div>
+
+  <div class="platform" id="rumble" aria-live="polite">
+    <img src="rumble.svg" alt="Rumble logo">
+    <span>…</span>
+  </div>
+
+  <script src="multistream_viewcount.js" defer></script>
+</body>
+</html>
